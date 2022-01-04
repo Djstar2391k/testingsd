@@ -1,0 +1,40 @@
+#videos{
+    background-color: black;
+    
+    
+}
+#vid{
+    width : 1110;
+     height : 624;
+}
+#video{
+    color: slateblue;
+    font-size: 50px;
+}
+
+body{
+    margin : 0;
+    padding-top : 810px;
+    text-align:   center;
+}
+#videos{
+    position: absolute;
+    z-index: 9;
+    height: 810px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    display : table;
+    height : 100%;
+    width : 100%;
+    
+}
+@media (max-width:700px){
+
+    #vid{
+        width: 350px;
+        height: 400px;
+    }
+
+}

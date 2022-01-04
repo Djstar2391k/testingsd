@@ -1,0 +1,40 @@
+#proper{
+    background-color: black;
+}
+#kar1{
+    color: rgb(54, 250, 4);
+}
+#kar2{
+    color: cyan;
+}
+#kar3{
+    color: darkblue;
+}
+#kar4{
+    color: indigo;
+}
+#kar5{
+    color: orangered;
+}
+#kar6{
+    color: yellowgreen;
+}
+#kar7{
+    color: royalblue;
+}
+#gallery{
+    color: aqua;
+}
+#proper{
+    position: absolute;
+    z-index: 9;
+    height: 810px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    display : table;
+    height : 100%;
+    width : 100%;
+    
+}

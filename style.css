@@ -1,0 +1,70 @@
+body{
+    margin : 0;
+    padding-top : 810px;
+    text-align:center;
+}
+img{
+    width: 210px;
+    margin-bottom : 51px;
+    border-radius : 200px;
+}
+#welcome{
+    position: absolute;
+    z-index: 9;
+    height: 810px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background-color :rgb(69, 250, 175);
+    display : table;
+    height : 100%;
+    width : 100%;
+    
+}
+.welcome_div{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    
+}
+#text1{
+    color:rgb(180, 4, 250);
+    font-size: 50px;
+    }
+    #text2{
+        color:darkgreen;
+        font-size:50px;
+    }
+    #happy{
+        color: rgb(218, 111, 212);
+        font-size: 50px;
+    }
+
+    @media (max-width:700px){
+
+        #happy{
+            color:rgb(180, 4, 250);
+            font-size: 30px;
+            }
+            img{
+                width: 150px;
+                margin-bottom : 51px;
+                border-radius : 200px;
+            }
+            #birthday{
+                height: 170px;
+                width: 150px;
+            }
+            #text1{
+                color:rgb(180, 4, 250);
+                font-size: 30px;
+                }
+
+                #text2{
+                    color:darkgreen;
+                    font-size:30px;
+                }
+
+
+    }
